@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0msref7lpafa"]
+
+[ext_resource type="Script" uid="uid://css5di2p7j2ue" path="res://scenes/main_2/main_2.gd" id="1_tksv6"]
+
+[node name="Main2" type="Node2D"]
+script = ExtResource("1_tksv6")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+theme_override_font_sizes/font_size = 80
+text = "2"
+horizontal_alignment = 1
+vertical_alignment = 1
